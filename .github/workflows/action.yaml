@@ -32,5 +32,5 @@ jobs:
         with:
           name: "${{ github.ref_name }} — ${{ env.DATE }}"
           # tag_name: ${{env.DATE}}
-          # body: Auto release API ${{env.RELEASE_TAG}} by @ci
+          body: Auto generated release ${{env.RELEASE_TAG}} by @ci
           files: main.pdf
