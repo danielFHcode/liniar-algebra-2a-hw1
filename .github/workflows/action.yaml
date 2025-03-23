@@ -31,5 +31,5 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           name: "${{ github.ref_name }} — ${{ env.DATE }}"
-          body: Auto release API ${{env.RELEASE_TAG}} by @ci
+          # body: Auto release API ${{env.RELEASE_TAG}} by @ci
           files: main.pdf
