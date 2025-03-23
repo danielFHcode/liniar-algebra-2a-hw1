@@ -1,0 +1,1 @@
+Compiled PDFs available [here](https://github.com/danielFHcode/liniar-algebra-2a-hw1/releases/latest).
