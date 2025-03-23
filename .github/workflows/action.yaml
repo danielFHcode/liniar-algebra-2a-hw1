@@ -14,16 +14,13 @@ jobs:
       - name: Typst
         uses: lvignoli/typst-action@main
         with:
-          source_file: |
-            first_file.typ
-            second_file.typ
-            third_and_final_file.typ
+          source_file: main.typ
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v4
         with:
           name: PDF
-          path: *.pdf
+          path: main.pdf
 
       - name: Get current date
         id: date
