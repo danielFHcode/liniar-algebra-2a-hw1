@@ -5,6 +5,7 @@ jobs:
   build_typst_documents:
     runs-on: ubuntu-latest
     steps:
+      - run: touch main.txt
       - name: Checkout
         uses: actions/checkout@v3
       - name: Typst
